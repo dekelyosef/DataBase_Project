@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>InfraDal</id>
+    <version>1.0.0</version>
+    <authors>InfraDal</authors>
+    <owners>InfraDal</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="InfraContracts" version="1.0.8" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraDal\bin\Debug\netcoreapp3.1\InfraDal.dll" target="lib\netcoreapp3.1\InfraDal.dll" />
+  </files>
+</package>

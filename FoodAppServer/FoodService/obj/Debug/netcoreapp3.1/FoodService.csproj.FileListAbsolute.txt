@@ -1,0 +1,10 @@
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppServer\dlls\netcoreapp3.1\FoodService.deps.json
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppServer\dlls\netcoreapp3.1\FoodService.dll
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppServer\dlls\netcoreapp3.1\FoodService.pdb
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodService\obj\Debug\netcoreapp3.1\FoodService.csprojAssemblyReference.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodService\obj\Debug\netcoreapp3.1\FoodService.csproj.CoreCompileInputs.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodService\obj\Debug\netcoreapp3.1\FoodService.AssemblyInfoInputs.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodService\obj\Debug\netcoreapp3.1\FoodService.AssemblyInfo.cs
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodService\obj\Debug\netcoreapp3.1\FoodService.csproj.CopyComplete
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodService\obj\Debug\netcoreapp3.1\FoodService.dll
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodService\obj\Debug\netcoreapp3.1\FoodService.pdb

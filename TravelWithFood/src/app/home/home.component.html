@@ -1,0 +1,59 @@
+  <div class="container">
+
+    <!-- find food by cuisine -->
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h2>What are your favorite cuisine</h2>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-sm-2" style="height: 70px;" *ngFor="let c of cuisines">
+            <button class="btn btn-danger" style="height: 90%;width: 100%;" (click)="onChooseCuisine(c)">
+                {{c}}
+            </button>
+        </div>
+    </div>
+    
+    <br/>
+    <br/>
+    <br/>
+
+<!-- find cuisine by ingredient -->
+    <div class ="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h2>Find my favorite cuisine by loved ingredient</h2>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4" >
+            <ng-autocomplete 
+            [data]="options"
+            (selected)='selectEvent($event)'
+            (inputChanged)='onChangeSearch($event)'
+            [itemTemplate]="itemTemplate"
+             [notFoundTemplate]="notFoundTemplate">                                 
+            </ng-autocomplete>
+            <ng-template #itemTemplate let-item>
+                <a [innerHTML]="item"></a>
+            </ng-template>
+            
+            <ng-template #notFoundTemplate let-notFound>
+                <div [innerHTML]="notFound"></div>
+            </ng-template>
+        </div>
+        <div class="col-md-4">
+            <button (click)="updateCuisine()"> update cuisine</button>
+        </div>
+    </div>
+</div>

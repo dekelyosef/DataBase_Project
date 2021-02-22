@@ -1,0 +1,24 @@
+<div class="jumbotron jumbotron-fluid text-center">
+    <img [src]="food.imageUrl">
+    <h1><b>{{food.name}}</b></h1>
+</div>
+<div class="body">
+    <div class="card mx-auto" style="width: 50rem;">
+        <div class="card-body">
+            <span style="font-size: 20px;">Cuisines: </span> <span style="font-size: 15px;">{{food.cuisines}}</span>
+            <br>
+            <span style="font-size: 20px;">Courses: </span> <span style="font-size: 15px;">{{food.courses}}</span>
+            <br>
+            <span style="font-size: 20px;">Total time: </span> <span style="font-size: 15px;">{{getTime(food.totalTime)}}</span>
+            <br>
+            <span style="font-size: 20px;">Rating: </span> <span style="font-size: 15px;">{{food.rating}}</span>
+            <br>
+            <span style="font-size: 20px;">Ingredients: </span>
+            <div *ngFor="let ingredient of food.ingredients; let i =index" [attr.data-index]="i">
+                <a> <b>{{i}}</b> {{ingredient}}</a>
+            </div>
+            <a href="{{food.recipeUrl}}" class="card-link">Recipe</a>
+        </div>
+        <button class="btn btn-secondary" (click)="back()">Back To All</button>
+    </div>
+</div>

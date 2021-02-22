@@ -1,0 +1,16 @@
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\bin\Debug\netcoreapp3.1\FoodAppContracts.deps.json
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\bin\Debug\netcoreapp3.1\FoodAppContracts.dll
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\bin\Debug\netcoreapp3.1\FoodAppContracts.pdb
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\bin\Debug\netcoreapp3.1\DI.dll
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\bin\Debug\netcoreapp3.1\DIContracts.dll
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\bin\Debug\netcoreapp3.1\InfraContracts.dll
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\bin\Debug\netcoreapp3.1\DIContracts.pdb
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\bin\Debug\netcoreapp3.1\DI.pdb
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\bin\Debug\netcoreapp3.1\InfraContracts.pdb
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\obj\Debug\netcoreapp3.1\FoodAppContracts.csprojAssemblyReference.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\obj\Debug\netcoreapp3.1\FoodAppContracts.csproj.CoreCompileInputs.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\obj\Debug\netcoreapp3.1\FoodAppContracts.AssemblyInfoInputs.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\obj\Debug\netcoreapp3.1\FoodAppContracts.AssemblyInfo.cs
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\obj\Debug\netcoreapp3.1\FoodAppContracts.csproj.CopyComplete
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\obj\Debug\netcoreapp3.1\FoodAppContracts.dll
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\FoodAppContracts\obj\Debug\netcoreapp3.1\FoodAppContracts.pdb

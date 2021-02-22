@@ -1,0 +1,27 @@
+.col-md-3{
+    height: 450px;
+}
+.back-btn{
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.next-btn{
+    margin-bottom: 30px;
+    margin-right: 15px;
+}
+button {
+    white-space: normal !important;
+}
+.bg{
+    background-color: darkgray;
+  
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.load{
+    margin-left:50%;
+    margin-right:50%;
+}

@@ -1,0 +1,9 @@
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraContracts\bin\Debug\netcoreapp3.1\InfraContracts.deps.json
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraContracts\bin\Debug\netcoreapp3.1\InfraContracts.dll
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraContracts\bin\Debug\netcoreapp3.1\InfraContracts.pdb
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraContracts\obj\Debug\netcoreapp3.1\InfraContracts.csprojAssemblyReference.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraContracts\obj\Debug\netcoreapp3.1\InfraContracts.csproj.CoreCompileInputs.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraContracts\obj\Debug\netcoreapp3.1\InfraContracts.AssemblyInfoInputs.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraContracts\obj\Debug\netcoreapp3.1\InfraContracts.AssemblyInfo.cs
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraContracts\obj\Debug\netcoreapp3.1\InfraContracts.dll
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraContracts\obj\Debug\netcoreapp3.1\InfraContracts.pdb

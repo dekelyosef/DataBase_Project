@@ -1,0 +1,78 @@
+<div class="container">
+
+    <!-- ingredient to add -->
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h2>Choose an ingredients you want to see in your dish</h2>
+            <h4>(suggested to add atleast 2 ingredients)</h4>
+            <h5>the max is 5</h5>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <input #toAdd type="text" size="30" (keyup)="onKey($event)" placeholder="ingredient to add">
+        </div>
+        <div class="col-md-4">
+            <button (click)="onAdd(true)"> Add</button>
+        </div>
+    </div>
+    <div class="row">
+        <p style="color: red;">{{errorMsgAdd}}</p>
+    </div> 
+    <div class="row">
+        <label *ngFor="let i of ingredientList">
+            {{i}},&nbsp;
+        </label>
+    </div>
+    
+    <br/>
+    <br/>
+    <br/>
+
+<!-- ingredient to discard -->
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h2>Any ingredient you don't want to see in your dish?</h2>
+            <h4>(suggested to add atleast 2 ingredients)</h4>
+            <h5>the max is 5</h5>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <input #toRemove type="text" size="30" (keyup)="onKey($event)" placeholder="ingredient to remove">
+        </div>
+        <div class="col-md-4">
+            <button (click)="onAdd(false)"> Add</button>
+        </div>
+    </div>
+    <div class="row">
+        <p style="color: red;">{{errorMsgRemove}}</p>
+    </div> 
+    <div class="row">
+        <label *ngFor="let i of ingredientListRemove">
+            {{i}},&nbsp;
+        </label>
+    </div>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-md-5"></div>
+        <div class="col-md-2">
+            <button class="btn btn-secondary" (click)="back()">Back</button>
+            <button class="btn btn-dark" (click)="next()">Next</button>
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+</div>

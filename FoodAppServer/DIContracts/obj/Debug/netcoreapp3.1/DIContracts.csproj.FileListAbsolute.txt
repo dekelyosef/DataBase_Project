@@ -1,0 +1,9 @@
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\DIContracts\bin\Debug\netcoreapp3.1\DIContracts.deps.json
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\DIContracts\bin\Debug\netcoreapp3.1\DIContracts.dll
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\DIContracts\bin\Debug\netcoreapp3.1\DIContracts.pdb
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\DIContracts\obj\Debug\netcoreapp3.1\DIContracts.csprojAssemblyReference.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\DIContracts\obj\Debug\netcoreapp3.1\DIContracts.csproj.CoreCompileInputs.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\DIContracts\obj\Debug\netcoreapp3.1\DIContracts.AssemblyInfoInputs.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\DIContracts\obj\Debug\netcoreapp3.1\DIContracts.AssemblyInfo.cs
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\DIContracts\obj\Debug\netcoreapp3.1\DIContracts.dll
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\DIContracts\obj\Debug\netcoreapp3.1\DIContracts.pdb

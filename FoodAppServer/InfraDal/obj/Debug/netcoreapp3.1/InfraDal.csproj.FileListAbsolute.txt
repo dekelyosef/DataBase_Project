@@ -1,0 +1,12 @@
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraDal\bin\Debug\netcoreapp3.1\InfraDal.deps.json
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraDal\bin\Debug\netcoreapp3.1\InfraDal.dll
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraDal\bin\Debug\netcoreapp3.1\InfraDal.pdb
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraDal\bin\Debug\netcoreapp3.1\InfraContracts.dll
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraDal\bin\Debug\netcoreapp3.1\InfraContracts.pdb
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraDal\obj\Debug\netcoreapp3.1\InfraDal.csprojAssemblyReference.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraDal\obj\Debug\netcoreapp3.1\InfraDal.csproj.CoreCompileInputs.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraDal\obj\Debug\netcoreapp3.1\InfraDal.AssemblyInfoInputs.cache
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraDal\obj\Debug\netcoreapp3.1\InfraDal.AssemblyInfo.cs
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraDal\obj\Debug\netcoreapp3.1\InfraDal.csproj.CopyComplete
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraDal\obj\Debug\netcoreapp3.1\InfraDal.dll
+C:\Users\user\DatabaseProject\FoodServer\LizaYemini\FoodAppServer\InfraDal\obj\Debug\netcoreapp3.1\InfraDal.pdb

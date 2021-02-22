@@ -1,0 +1,35 @@
+<div #bg>
+  <div class="fixed-bottom">
+    <div class="button-group pull-left">
+      <button type="button " class="btn btn-primary float-left back-btn" [disabled]="isBackDisabled" (click)="back()">Previous Results</button>    
+    </div>
+    <div class="button-group pull-right">
+      <button type="button " class="btn btn-primary float-right next-btn" [disabled]="isNextDisabled" (click)="next()">Next Results</button>
+    </div>
+  </div>
+  
+<div>
+  <div *ngIf="foods.length > 0 ; else elseBlock">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" *ngFor="let food of FoodsView">
+          <div class="card">
+            <img class="card-img-top" [src]="food.imageUrl" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{food.name}}</h5>  
+              <p> cuisines: {{food.cuisines}} <br> courses: {{food.courses}} <br> num of ingredients: {{food.ingredients.length}} <br> Time: {{getTime(food.totalTime)}}</p>
+              <button class="btn btn-primary" (click)="selectFood(food)">GO to Food</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+  
+  <ng-template #elseBlock>
+    <div class="load">
+      <mat-spinner></mat-spinner>
+    </div>
+  </ng-template>
+</div>
+

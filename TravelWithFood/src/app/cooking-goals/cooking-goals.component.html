@@ -1,0 +1,86 @@
+
+<div class="container">
+
+    <!-- ingredient to add -->
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h2>What are your cooking goals?</h2>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="row">
+                <p> Max time</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" size="8" (keyup)="onKey($event,'hr')" placeholder="Hr">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" size="8" (keyup)="onKey($event,'min')" placeholder="Min">
+                </div>                
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                <p>Min rating (the max is 5)</p>
+            </div>
+            <div class="row">
+                <input type="text" size="20" (keyup)="onKey($event,'rating')" placeholder="rating">
+            </div> 
+            <div class="row">
+                <p style="color: red;">{{ratingErrorMessage}}</p>
+            </div>  
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                <p>Course</p>
+            </div>
+            <div class="row ng-autocomplete" style="width: 100%;border: black;">
+                <ng-autocomplete 
+                    [data]="options"
+                    (selected)='selectEvent($event)'
+                    (inputChanged)='onChangeSearch($event)'
+                    [itemTemplate]="itemTemplate"
+                     [notFoundTemplate]="notFoundTemplate">                                 
+                </ng-autocomplete>
+                <ng-template #itemTemplate let-item>
+                    <a [innerHTML]="item"></a>
+                </ng-template>
+                    
+                <ng-template #notFoundTemplate let-notFound>
+                    <div [innerHTML]="notFound"></div>
+                </ng-template>
+            </div>   
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                <p>Max Ingredients</p>
+            </div>
+            <div class="row">
+                <input type="text" #max size="25" (keyup)="onKey($event,'ingredient')" placeholder="maximum">
+            </div> 
+            <div class="row">
+                <p style="color: red;">{{errorMessage}}</p>
+            </div> 
+        </div>
+    </div>
+    
+    <br/>
+    <br/>
+    <br/>
+
+    <div class="row">
+        <div class="col-md-5"></div>
+        <div class="col-md-2">
+            <button class="btn btn-secondary" (click)="back()">Back</button>
+            <button class="btn btn-dark" [disabled]="isDisabled" (click)="next()">Next</button>
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+</div>
